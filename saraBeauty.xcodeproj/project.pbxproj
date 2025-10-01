@@ -29,15 +29,36 @@
 		5D8319ED2E8ABC3200E82EFD /* saraBeautyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saraBeautyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5D1AF94F2E8C2FE900C79213 /* Exceptions for "saraBeautyTests" folder in "saraBeauty" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				saraBeautyTests.swift,
+			);
+			target = 5D8319D52E8ABC2D00E82EFD /* saraBeauty */;
+		};
+		5D1AF9502E8C2FE900C79213 /* Exceptions for "saraBeautyTests" folder in "saraBeautyTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				saraBeautyTests.swift,
+			);
+			target = 5D8319E22E8ABC3200E82EFD /* saraBeautyTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		5D1AF94D2E8C2FE900C79213 /* saraBeautyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5D1AF94F2E8C2FE900C79213 /* Exceptions for "saraBeautyTests" folder in "saraBeauty" target */,
+				5D1AF9502E8C2FE900C79213 /* Exceptions for "saraBeautyTests" folder in "saraBeautyTests" target */,
+			);
+			path = saraBeautyTests;
+			sourceTree = "<group>";
+		};
 		5D8319D82E8ABC2D00E82EFD /* saraBeauty */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = saraBeauty;
-			sourceTree = "<group>";
-		};
-		5D8319E62E8ABC3200E82EFD /* saraBeautyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = saraBeautyTests;
 			sourceTree = "<group>";
 		};
 		5D8319F02E8ABC3200E82EFD /* saraBeautyUITests */ = {
@@ -76,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5D8319D82E8ABC2D00E82EFD /* saraBeauty */,
-				5D8319E62E8ABC3200E82EFD /* saraBeautyTests */,
+				5D1AF94D2E8C2FE900C79213 /* saraBeautyTests */,
 				5D8319F02E8ABC3200E82EFD /* saraBeautyUITests */,
 				5D8319D72E8ABC2D00E82EFD /* Products */,
 			);
@@ -108,6 +129,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				5D1AF94D2E8C2FE900C79213 /* saraBeautyTests */,
 				5D8319D82E8ABC2D00E82EFD /* saraBeauty */,
 			);
 			name = saraBeauty;
@@ -129,9 +151,6 @@
 			);
 			dependencies = (
 				5D8319E52E8ABC3200E82EFD /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5D8319E62E8ABC3200E82EFD /* saraBeautyTests */,
 			);
 			name = saraBeautyTests;
 			packageProductDependencies = (

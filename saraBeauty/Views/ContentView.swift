@@ -75,7 +75,7 @@ struct ContentView: View {
     func PlayerInfo(_ size: CGSize) -> some View {
         HStack(spacing: 12) {
             RoundedRectangle(cornerRadius: size.height / 4)
-                .fill(.blue.gradient)
+                .fill(.red.gradient)
                 .frame(width: size.width, height: size.height)
 
             VStack(alignment: .leading, spacing: 6) {
